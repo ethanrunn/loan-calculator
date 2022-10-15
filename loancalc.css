@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkslategrey;
+    margin-top: 50px;
+}
+.card {
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+span {
+    background-color: gainsboro;
+    padding: 5px;
+}
+input {
+    padding: 5px;
+    margin-left: 0px;
+    width: 70%;
+    margin: 10px;
+}
+h2 {
+    margin: 20px;
+}
+.calculate {
+    background-color: darkslategrey;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.results input {
+    background-color: #E8F0FE;
+    /* border: 1px solid black; */
+}
+.results, .calculating {
+    display: none;
+}
+.calculating {
+    padding: 50px 10px;
+    margin: 30px 20px;
+    background-color: darkslategrey;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.alert {
+    background-color: pink;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    display: none;
+    border: 2px dashed red;
+}

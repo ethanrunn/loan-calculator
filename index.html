@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./loancalc.css">
+    <title>Loan Calculator App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-inputs">
+            <div class="alert">
+                Please fill all fields
+            </div>
+            <h2 class="heading">Loan Calculator</h2>
+            <input type="number" class="amount" id="amount" placeholder="Loan Amount (#)"><br>
+            <input type="number" class="rate" id="rate" placeholder="Annual interest rate (%)"><br>
+            <input type="number" class="years" id="years" placeholder="Years to repay">
+            <input type="submit" value="Calculate" class="calculate" id="calculate">        
+        </div>
+        <div class="calculating" id="calculating">
+            Loading...
+        </div>
+        <div class="results">
+            <h2>Results</h2>
+            <label for="amount" class="monthly-payment">Monthly Payment:</label>
+            <input type="number" class="amount" id="monthly-payment" disabled><br>
+            <label for="amount" class="total-payment">Total Payment:</label>
+            <input type="number" class="rate" id="total-payment" disabled><br>
+            <label for="amount" class="total-interest">Total Interest:</label>
+            <input type="number" class="years" id="total-interest" disabled>
+        </div>
+    </div>
+
+    <script src="./loancalc.js"></script>
+</body>
+</html>
